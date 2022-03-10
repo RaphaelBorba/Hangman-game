@@ -20,7 +20,7 @@ class Set:
         while True:
             try:
                 num=int(input('Which word do you want to remove?'))
-                if num < len(self.words):
+                if num <= len(self.words) and num >=0 :
                     break
                 else:
                     print('Number incorrect!')
